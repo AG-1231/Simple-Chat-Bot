@@ -1,1 +1,2 @@
 # Simple-Chat-Bot
+This is a simple Python chatbot that responds to common questions using pre-built replies. The program checks the user’s message for keywords like “hello,” “joke,” “weather,” or “help,” and then gives a random response so the conversation feels less repetitive. If no matching keyword is found, it uses a fallback reply. Users can keep chatting until they type “quit” to exit. This project helps practice Python concepts such as dictionaries, lists, functions, loops, conditionals, string handling, and random selection.
