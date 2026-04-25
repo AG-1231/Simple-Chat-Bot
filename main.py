@@ -79,7 +79,7 @@ responses = {
     ],
 }
  
-# if nothing matches, say one of these
+
 fallbacks = [
     "hmm, i'm not sure about that one.",
     "good question, i don't really know.",
@@ -92,12 +92,12 @@ fallbacks = [
 def get_response(message):
     message = message.lower().strip()
  
-    # check if any of our keywords are in the message
+    
     for keyword, replies in responses.items():
         if keyword in message:
             return random.choice(replies)
  
-    # nothing matched
+    
     return random.choice(fallbacks)
  
  
